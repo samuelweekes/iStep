@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+tools:context="com.example.william.istep.MainMenuFragment"
+    >
+<TextView
+    android:id="@+id/welcome_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30sp"
+    android:textSize="25sp"
+    />
+<Button
+    android:id="@+id/settings_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableTop="@drawable/user"
+    android:background="@null"
+
+    android:layout_alignTop="@+id/welcome_message"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="26dp"
+    android:layout_marginStart="26dp" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120sp"
+        android:textSize="200sp"
+        android:textColor="#0099cc"/>
+
+    <TextView
+        android:id="@+id/todays_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/count"
+        android:text="@string/todays_steps"
+        android:textSize="45sp"
+        android:paddingBottom="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/actual_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todays_steps"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#0099cc"/>
+
+
+    <TextView
+        android:id="@+id/distance_travelled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actual_distance"
+        android:text="@string/distance_travelled"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/actual_distance"
+        android:layout_above="@id/distance_travelled"
+        android:textSize="30sp"
+        android:text="@string/miles"
+        android:textColor="#0099cc"/>
+
+
+
+
+</RelativeLayout>

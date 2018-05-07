@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.william.istep.GoalsFragment">
+
+<Button
+
+    android:id="@+id/calories_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:drawableBottom="@drawable/flame1"
+    android:background="@null"
+    />
+
+    <Button
+        android:id="@+id/steps_button_goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/chart"
+        android:layout_alignEnd="@+id/chart"
+        android:drawableBottom="@drawable/foot"
+        android:background="@null"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

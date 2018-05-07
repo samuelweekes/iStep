@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Name"
+        android:key="username"
+        android:summary= "Please enter your name"></EditTextPreference>
+    <EditTextPreference
+        android:title="Weight (kg)"
+        android:key="userweight"
+        android:summary="Please enter your weight"
+        android:inputType="number"
+        android:numeric="decimal">
+
+    </EditTextPreference>
+    <EditTextPreference
+        android:title="Gender (M/F)"
+        android:key="gender"
+        android:summary="Please enter your gender">
+    </EditTextPreference>
+
+    <EditTextPreference android:title="Height (cm)"
+        android:key="userheight"
+        android:summary="Please enter your height"
+        android:inputType="number"
+        android:numeric="decimal"></EditTextPreference>
+
+    <EditTextPreference
+        android:title="Daily Step Goal"
+        android:key="userGoal"
+        android:summary="Please enter your goal"
+        android:inputType="number">
+        </EditTextPreference>
+</PreferenceScreen>

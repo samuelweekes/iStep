@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">iStep</string>
+    <string name="goal_message">Here is your progress. You are doing great!</string>
+    <string name="average_steps">Average Daily Steps</string>
+    <string name="total_steps">Total Steps</string>
+    <string name="calories_burned">Calories Burned</string>
+    <string name="todays_steps">Today\'s Steps</string>
+    <string name="save_settings">Save</string>
+    <string name = "calories_button_goals">Calories Burned</string>
+    <string name = "steps_button_goals">Daily Steps</string>
+    <string name = "workout_date_title">Workout Date</string>
+    <string name = "settings_button">User goals/details</string>
+    <string name = "distance_travelled">Distance</string>
+    <string name= "miles">mi</string>
+
+</resources>

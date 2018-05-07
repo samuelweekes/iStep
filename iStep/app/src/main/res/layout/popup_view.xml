@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#efc373">
+
+    <TextView
+        android:id="@+id/welcome_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to iStep!"
+        android:textSize="20sp"
+        android:layout_marginTop="36dp"
+        android:paddingBottom="40dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="You can start counting steps but to fully utilise the app we encourage you to click on the user icon on the main screen and enter your details. Hit back to get started."
+        android:id="@+id/popup_text"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"
+
+        android:layout_below="@+id/welcome_popup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:id="@+id/image_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user"
+        android:layout_below="@+id/popup_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/have_fun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have fun!"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/image_popup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+</RelativeLayout>
